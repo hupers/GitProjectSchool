@@ -24,6 +24,14 @@ public class AnimationAim : MonoBehaviour
         {
             anim.SetBool("Walk", false);
         }
+        if(Input.GetKey(KeyCode.S))
+        {
+            anim.SetBool("WalkBack", true);
+        }
+        else if(Input.GetKeyUp(KeyCode.S))
+        {
+            anim.SetBool("WalkBack", false);
+        }
         //GetMouseButton1
         if(Input.GetMouseButton(1))
         {
