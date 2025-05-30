@@ -12,6 +12,11 @@ public class Movement : MonoBehaviour
     [SerializeField] private float smoothTime;
     [SerializeField] private float jumpForse;
     [SerializeField] private GameObject playerCamera;
+    [Space]
+    [Header("Health")]
+    [SerializeField] private Image healthBar;
+    [SerializeField] private Sprite [] healthImages;
+    [SerializeField] private  int health = 10;
     private bool isGround;
     private Vector3 moveAmount;
     private Vector3 smoothMove;
