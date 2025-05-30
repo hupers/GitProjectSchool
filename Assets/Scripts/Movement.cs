@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
     private void Move()
     {
         Vector3 moveDir = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
-        moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (Input.GetKey(KeyCode.LeftShift) ? runSpeed : walkSpeed), ref smoothMove, smoothTime);
+        moveAmount = Vector3.SmoothDamp(moveAmount, moveDir * (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.W)? runSpeed : walkSpeed), ref smoothMove, smoothTime);
         
     }
     private void FixedUpdate()
