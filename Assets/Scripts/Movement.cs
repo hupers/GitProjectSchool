@@ -63,6 +63,7 @@ public class Movement : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForse, ForceMode.Impulse);
             isGround = false;
+            AudioManager.Instance.playjumpsound();
         }
         else
         {
