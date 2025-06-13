@@ -3497,7 +3497,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d5260e071440b2b4999928d084ee5bdf, type: 3}
   - {fileID: 21300000, guid: 55dcbcb12e71be749b020fd932cb52b6, type: 3}
   - {fileID: 21300000, guid: 95a45f6aaf27365418652afaa3beac6b, type: 3}
-  health: 10
+  health: 5
 --- !u!136 &2011790340813833521
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3539,7 +3539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011790340813833522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 42.34625, y: -0.000002861023, z: -50.118008}
+  m_LocalPosition: {x: 42.34625, y: 2.09, z: -50.118008}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
